@@ -39,12 +39,12 @@
         display: flex;
         align-items: center;
         font-size: 0.875rem;
-        color: var(--gray-100);
+        color: var(--info);
   
         svg {
           height: 1.25rem;
           width: 1.25rem;
-          color: var(--gray-100);
+          color: var(--info);
           margin-right: 0.5rem;
         }
       }
@@ -61,14 +61,14 @@
       span {
         font-size: 0.875rem;
         font-style: italic;
-        color: var(--gray-100);
+        color: var(--info);
       }
     }
   
     div.postBody {
       line-height: 1.5rem;
       font-size: 1.125rem;
-      color: var(--gray-100);
+      color: var(--body);
       margin-top: 4rem;
   
       h2 {
@@ -93,7 +93,7 @@
       }
   
       a {
-        color: var(--pink);
+        color: var(--highlight);
         transition: filter 0.2s;
   
         &:hover {
